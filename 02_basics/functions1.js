@@ -20,6 +20,14 @@ function addTwoNumbers(number1,number2){//parameter{
 // addTwoNumbers(5,"a")//5a
 
 const result=addTwoNumbers(3,5)
-console.log(result)
+// console.log(result)
+function loginUserMessage(username="sam"){
+    if(username === undefined){
+        console.log("Please enter a username");
+    }
+    return`${username} just logged in`
+}
+// console.log(loginUserMessage("Harshit"))
+console.log(loginUserMessage())// returns undefined ...
 
 
